@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('Roboto-Black.ttf') format('truetype'),
+       url('Roboto-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto-black';
+  src: url('roboto-black.eot');
+  src: url('roboto-black.eot?#iefix') format('embedded-opentype'),
+       url('roboto-black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

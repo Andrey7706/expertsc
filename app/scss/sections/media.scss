@@ -1,0 +1,935 @@
+@media (max-width: 1300px) {
+    .service {
+        h2 {
+            margin-left: 50px;
+        }
+    }
+    .maps {
+        h2 {
+            margin-left: 50px;
+        }
+    }
+    .news {
+        h2 {
+            margin-left: 50px;
+        }
+    }
+    .slick-prev {
+        left: 25px;
+    }
+    .slick-next {
+        right: 25px;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    .first_futures {
+        justify-content: center;
+    }
+    .first_futures-item {
+        margin-right: 40px;
+    }
+    .advantages_img-bottom {
+        width: 600px;
+        right: -190px;
+        bottom: -295px;
+    }
+    .advantages_img-top {
+        width: 350px;
+        top: -180px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .premises_list {
+        margin: 26px auto 20px;
+        max-width: 956px;
+    }
+    .news_list {
+        margin: 14px auto 0;
+        max-width: 800px;
+    }
+    .video_list {
+        margin: 14px auto 0;
+        max-width: 800px;
+    }
+    .vacancy_list {
+        justify-content: center;
+    }
+    .service_list {
+        margin: 49px auto 0;
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 1132px) {
+    .menu_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .menu_item {
+        max-width: 305px;
+        width: 100%;
+        margin: 0 0 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 1090px) {
+    .top-menu {
+        a {
+            padding: 17px 40px;
+        }
+    }
+    .header_right {
+        .phone {
+            &:after {
+                display: none;
+            }
+        }
+    }
+    .button {
+        padding-left: 0;
+    }
+    .city {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1026px) {
+    .footer_wrap {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {
+    nav {
+        display: none;
+    }
+    .nav-mobile-block {
+        display: flex;
+    }
+    .header_left {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header_right {
+        justify-content: center;
+        width: 100%;
+    }
+    .city {
+        margin-left: 0;
+    }
+    h2 {
+        font-size: 60px;
+        text-align: center;
+    }
+    .first {
+        padding-top: 50px;
+        padding-bottom: 80px;
+
+        h1 {
+            max-width: 100%;
+            font-size: 45px;
+            text-align: center;
+        }
+    }
+    .first_futures {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .first_futures-item {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .first_futures-city-text,
+    .first_futures-expert-text,
+    .first_futures-partners-text {
+        max-width: 100%;
+    }
+    .service {
+        padding-top: 185px;
+        padding-bottom: 30px;
+    }
+    .service_desc {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .order {
+        padding-top: 60px;
+        padding-bottom: 160px;
+    }
+    .order_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .order_desc {
+        text-align: center;
+    }
+    .order_form {
+        form {
+            margin: 0 auto;
+        }
+    }
+    .advantages {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .news {
+        padding-top: 240px;
+        padding-bottom: 50px;
+    }
+    .service {
+        h2 {
+            margin-left: 0;
+        }
+
+        &:before {
+            display: none;
+        }
+    }
+    .maps {
+        padding-top: 0;
+        min-height: 650px;
+
+        h2 {
+            margin-left: 0;
+        }
+    }
+    .maps_map {
+        left: 0;
+    }
+    .news {
+        h2 {
+            margin-left: 0;
+        }
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about_img {
+        display: none;
+    }
+    .about_content {
+        max-width: 100%;
+        padding: 30px;
+    }
+    .advantages_img-bottom {
+        display: none;
+    }
+    .advantages_img-top {
+        display: none;
+    }
+    .premises_content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .premises_consult {
+        flex-direction: column;
+    }
+    .premises_consult-img {
+        display: none;
+    }
+    .premises_consult-content {
+        max-width: 100%;
+        padding: 30px;
+    }
+    .premises_consult_title {
+        text-align: center;
+    }
+    .premises_consult_desc {
+        text-align: center;
+    }
+    .premises_consult_form {
+        text-align: center;
+
+        form {
+            margin: 0 auto;
+        }
+        .personal {
+            br {
+                display: none;
+            }
+        }
+    }
+    .premises_list {
+        max-width: 717px;
+    }
+    .service_page {
+        padding-bottom: 30px;
+    }
+    .vacancy_banner {
+        padding-left: 200px;
+        padding-right: 60px;
+    }
+    .vacancy_page {
+        padding-bottom: 50px;
+    }
+    .menu_wrap {
+        justify-content: flex-start;
+        max-width: 610px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 850px) {
+    .maps_map {
+        left: -200px;
+    }
+    .consulting_banner-subtitle {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 829px) {
+    .news_list {
+        justify-content: center;
+    }
+    .video_list {
+        justify-content: center;
+    }
+    .consulting_content-wrap {
+        flex-wrap: wrap;
+    }
+    .consulting_content-left {
+        margin: 0 auto;
+    }
+    .consulting_content-right {
+        margin-left: 0;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .consulting_content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .service_list {
+        justify-content: center;
+    }
+    .service_btn {
+        margin: 20px auto 0;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 50px;
+
+        span {
+            &:before {
+                width: 120px;
+                height: 120px;
+                top: -25px;
+                left: -40px;
+            }
+        }
+    }
+    h3 {
+        font-size: 36px;
+    }
+    .premises_content {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .premises_list {
+        max-width: 478px;
+    }
+    .news_item {
+        margin: 0 0 30px;
+    }
+    .video_item {
+        margin: 0 0 30px;
+    }
+    .news_page {
+        padding-bottom: 30px;
+    }
+    .pagination {
+        margin-top: 10px;
+    }
+    .service_list {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .service_item {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .vacancy_banner {
+        padding-left: 135px;
+        padding-right: 15px;
+        background-size: 100px;
+    }
+    .vacancy_banner-contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .vacancy_page {
+        padding-bottom: 30px;
+    }
+    .vacancy_list {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .vacancy_item {
+        padding: 15px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .consulting_futures {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .consulting_docs {
+        margin-top: 30px;
+    }
+    .consulting_docs-item {
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
+    .maps_desc {
+        text-align: center;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .maps_accordion {
+        display: block;
+    }
+    .maps_map {
+        display: none;
+    }
+    .maps_comm {
+        max-width: 100%;
+    }
+    .maps_comm-text {
+        text-align: center;
+    }
+    .maps_btn {
+        margin: 0 auto;
+    }
+    .maps_comm-text {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .about_top {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .about_list {
+        margin-top: 100px;
+    }
+    .about_page-title {
+        margin-top: 0;
+    }
+    .about_page-content {
+        padding-bottom: 20px;
+    }
+    .about_page-text-top {
+        margin-bottom: 30px;
+    }
+    .about_page-slider {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .about_page-slider-bottom {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .comments {
+        padding-bottom: 30px;
+    }
+    .consulting_bottom {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .consulting_slider {
+        margin: 40px -13px;
+    }
+    .footer_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_left {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+    .footer_copy {
+        margin-left: 0;
+        text-align: center;
+    }
+    .footer_contact {
+        text-align: center;
+        padding-left: 0;
+    }
+    .address {
+        margin-left: 0;
+    }
+    .footer_contact {
+        .phone {
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .consulting_banner {
+        background: $blue;
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+
+        .consulting_banner-left {
+            margin-bottom: 150px;
+        }
+        .consulting_banner-circle {
+            top: 150px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .consulting_banner-button {
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 639px) {
+    .menu_wrap {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 635px) {
+    .header {
+        .social {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 567px) {
+    .modal_form input[type="text"],
+    .modal_form input[type="tel"],
+    .modal_form input[type="submit"] {
+        height: 45px;
+    }
+    .modal_form-wrap {
+        padding: 25px;
+    }
+    .modal_form-title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 535px) {
+    .consulting_docs-list {
+        justify-content: center;
+    }
+    .consulting_docs-item {
+        max-width: 100%;
+    }
+    .consulting_docs-title {
+        margin-bottom: 20px;
+    }
+    .service_item {
+        max-width: 100%;
+    }
+    .service_img {
+        max-width: 100%;
+    }
+    .service_item-popup {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+    .consulting_futures {
+        flex-direction: column;
+    }
+    .button {
+        margin-top: 10px;
+        .phone {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .call {
+            margin-left: 0;
+            font-size: 13px;
+            width: 145px;
+        }
+        .tender {
+            margin-left: 10px;
+            font-size: 13px;
+            width: 145px;
+        }
+    }
+    .header_left {
+        .city {
+            font-size: 14px;
+        }
+    }
+    .header_right {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 507px) {
+    .premises_list {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 498px) {
+    .premises_consult_form {
+        form {
+            input {
+                max-width: 100%;
+                height: 35px;
+            }
+        }
+    }
+    .premises_consult_title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 36px;
+        line-height: 1.1;
+
+        span {
+            &:before {
+                width: 80px;
+                height: 80px;
+                top: -15px;
+                left: -20px;
+            }
+        }
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .first {
+        padding-top: 30px;
+        padding-bottom: 50px;
+
+        h1 {
+            font-size: 25px;
+        }
+    }
+    h4 {
+        font-size: 26px;
+
+        span {
+            &:before {
+                top: -6px;
+            }
+        }
+    }
+    .first_futures {
+        margin-top: 10px;
+    }
+    .first_futures-city {
+        font-size: 60px;
+    }
+    .first_futures-city-text {
+        font-size: 16px;
+    }
+    .first_futures-partners {
+        font-size: 60px;
+    }
+    .first_futures-partners-text{
+        font-size: 16px;
+    }
+    .first_futures-expert {
+        font-size: 60px;
+    }
+    .first_futures-expert-text {
+        font-size: 16px;
+    }
+    .first_futures-city {
+        &:before {
+            width: 51px;
+            height: 51px;
+            top: 10px;
+            left: 6px;
+        }
+    }
+    .first_futures-partners {
+        &:before {
+            width: 51px;
+            height: 51px;
+            top: 9px;
+            left: 50px;
+        }
+    }
+    .first_futures-expert {
+        &:before {
+            content: "";
+            background: #12BEF0;
+            border-radius: 50%;
+            width: 51px;
+            height: 51px;
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 33px;
+            z-index: -1;
+        }
+    }
+    .news_title {
+        font-size: 20px;
+    }
+    .news_content {
+        margin-top: 10px;
+    }
+    .news_item {
+        margin: 0 0 20px;
+        padding: 15px;
+        max-width: 100%;
+    }
+    .video_title {
+        font-size: 20px;
+    }
+    .video_item {
+        max-width: 100%;
+        margin: 0 0 20px;
+        padding: 15px;
+    }
+    .video_content {
+        margin-top: 10px;
+    }
+    .comments {
+        padding-bottom: 30px;
+    }
+    .comments_item {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .comments_content {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .comments_img {
+        margin: 0 auto;
+    }
+    .comments_text {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .vacancy_banner {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-image: none;
+    }
+    .vacancy_text {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .vacancy_total {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .service_page .service_list {
+        margin-top: 20px;
+    }
+    .premises_list {
+        margin-top: 20px;
+    }
+    .page-img-404 {
+        margin-top: 60px;
+    }
+    .consulting_futures-icon {
+        width: 120px;
+        height: 120px;
+    }
+    .consulting_futures-text {
+        font-size: 16px;
+    }
+    .consulting_futures {
+        padding-bottom: 0;
+    }
+    .consulting_content-title {
+        font-size: 26px;
+    }
+    .consulting_content-text {
+        margin-top: 10px;
+    }
+    .consulting_docs-item {
+        margin-bottom: 20px;
+    }
+    .advantages_desc {
+        margin-top: 10px;
+    }
+    .news {
+        padding-bottom: 30px;
+    }
+    .news_slider {
+        margin-top: 30px;
+    }
+    .order {
+        background: #205088;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .maps {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .maps_comm-text {
+        font-size: 22px;
+    }
+    .about_futures {
+        font-size: 18px;
+    }
+    .about_futures-icon {
+        width: 100px;
+        height: 100px;
+    }
+    .about_futures-icon:before {
+        width: 150px;
+        height: 150px;
+        top: -27px;
+        left: -27px;
+    }
+    .about_futures-icon:after {
+        width: 200px;
+        height: 200px;
+        left: -53px;
+        top: -53px;
+    }
+    .about_futures-icon {
+        top: 0;
+        left: -100px;
+    }
+    .about_futures {
+        span {
+            font-size: 35px;
+        }
+    }
+    .about_list {
+        margin-top: 70px;
+    }
+    .about_top {
+        padding-bottom: 30px;
+    }
+    .about_page-title {
+        font-size: 26px;
+    }
+    .about_list-ttl {
+        font-size: 22px;
+    }
+    .menu_bottom {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .modal_img {
+        display: none;
+    }
+    .modal_form {
+        margin: 0 auto;
+    }
+    .modal_form-wrap {
+        padding: 15px;
+    }
+    .modal_form-title {
+        font-size: 20px;
+    }
+    .modal_form-description {
+        margin-bottom: 15px;
+    }
+    .modal_form input[type="submit"] {
+        margin-bottom: 15px;
+    }
+    .modal-container-polit {
+        padding: 15px;
+    }
+    .title-modal-polit {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .caption-modal-polit {
+        font-size: 14px;
+    }
+    .caption-modal-polit {
+        li {
+            font-size: 12px;
+            margin-top: 7px;
+        }
+        p {
+            margin: 5px 0;
+        }
+    }
+    .news_slide {
+        padding: 15px;
+    }
+    .about_content {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header_left {
+        flex-direction: column;
+    }
+    .nav-mobile-block {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+    }
+    .premises_consult-content {
+        padding: 30px 15px 15px;
+    }
+    .page-img-404 {
+        margin-top: 30px;
+    }
+    .premises_list {
+        width: 100%;
+
+        li {
+            width: 100%;
+        }
+    }
+    .premises_item {
+        width: 100%;
+        min-height: 250px;
+    }
+    .premises_icon {
+        height: 150px;
+    }
+}
+
+@media (max-width: 360px) {
+    h2 {
+        font-size: 32px;
+    }
+    .order_form form {
+        max-width: 100%;
+    }
+    .order_form form input {
+        max-width: 100%;
+    }
+    .maps_btn {
+        max-width: 100%;
+    }
+    .advantages_item {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+

@@ -1,0 +1,20 @@
+// vars
+$white: #ffffff;
+$blue: #12BEF0;
+$black: #333333;
+
+// layout
+@import "_misc/normalize";
+@import "_misc/fonts";
+@import "_misc/mixins";
+@import "_misc/adjustment";
+
+// styles
+@import "sections/header";
+@import "sections/index";
+@import "sections/footer";
+@import "sections/media";
+
+
+
+ 
